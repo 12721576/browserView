@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3714AA5D1E07B317005A127B /* UIView+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA581E07B317005A127B /* UIView+XLExtension.m */; };
-		3714AA5E1E07B317005A127B /* XLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA5A1E07B317005A127B /* XLPhotoBrowser.m */; };
-		3714AA5F1E07B317005A127B /* XLZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA5C1E07B317005A127B /* XLZoomingScrollView.m */; };
 		3714AA631E07B5C9005A127B /* testRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA611E07B5C9005A127B /* testRootViewController.m */; };
 		3714AA641E07B5C9005A127B /* testRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714AA621E07B5C9005A127B /* testRootViewController.xib */; };
 		3714AA681E07B915005A127B /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714AA661E07B915005A127B /* BrowserViewController.m */; };
@@ -26,18 +23,22 @@
 		3736408B1C7C378200EA223D /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373640891C7C378200EA223D /* ShowViewController.xib */; };
 		373C197D1D101FF2000D7D47 /* testCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 373C197B1D101FF2000D7D47 /* testCollectionViewCell.m */; };
 		373C197E1D101FF2000D7D47 /* testCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373C197C1D101FF2000D7D47 /* testCollectionViewCell.xib */; };
+		374111531E49AC3900940D79 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3741114A1E49AC3900940D79 /* Card.m */; };
+		374111541E49AC3900940D79 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3741114C1E49AC3900940D79 /* Card+CoreDataProperties.m */; };
+		374111551E49AC3900940D79 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3741114E1E49AC3900940D79 /* Person.m */; };
+		374111561E49AC3900940D79 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 374111501E49AC3900940D79 /* Person+CoreDataProperties.m */; };
+		374111571E49AC3900940D79 /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 374111511E49AC3900940D79 /* testModel.xcdatamodeld */; };
+		3741115E1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 374111591E49AC5900940D79 /* TKGTWPlanMasterHeaderView.m */; };
+		3741115F1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3741115A1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.xib */; };
+		374111601E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3741115C1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.m */; };
+		374111611E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3741115D1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.xib */; };
+		374111681E49AC6C00940D79 /* UIView+XLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 374111631E49AC6C00940D79 /* UIView+XLExtension.m */; };
+		374111691E49AC6C00940D79 /* XLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 374111651E49AC6C00940D79 /* XLPhotoBrowser.m */; };
+		3741116A1E49AC6C00940D79 /* XLZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 374111671E49AC6C00940D79 /* XLZoomingScrollView.m */; };
 		374685A11CE579B00050AE9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374685A01CE579B00050AE9B /* QuartzCore.framework */; };
 		374685A41CE57CB90050AE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374685A21CE57CB90050AE9B /* Main.storyboard */; };
 		375ADE891D59A9DB00205D2F /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 375ADE871D59A9DB00205D2F /* testModel.xcdatamodeld */; };
 		375ADE8B1D59AB1F00205D2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375ADE8A1D59AB1F00205D2F /* CoreData.framework */; };
-		375ADE941D59ABB000205D2F /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ADE8D1D59ABB000205D2F /* Person+CoreDataProperties.m */; };
-		375ADE951D59ABB000205D2F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ADE8F1D59ABB000205D2F /* Person.m */; };
-		375ADE961D59ABB000205D2F /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ADE911D59ABB000205D2F /* Card+CoreDataProperties.m */; };
-		375ADE971D59ABB000205D2F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ADE931D59ABB000205D2F /* Card.m */; };
-		37EDBFCD1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EDBFCB1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.m */; };
-		37EDBFCE1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37EDBFCC1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.xib */; };
-		37EDBFD21DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EDBFD01DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.m */; };
-		37EDBFD31DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37EDBFD11DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.xib */; };
 		78D3BEE8F1A785CB030DDA5C /* libPods-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6168F6B4BC65A5A0764D4DC /* libPods-testTests.a */; };
 		9A1A5B8459CB81FF3C99CE7C /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6BA541CF06BAFCA6D4D52C /* libPods-test.a */; };
 		ED91FE5BABFD1D2CCCB00528 /* libPods-testUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A6F7A1E41DABD7E7BB0119 /* libPods-testUITests.a */; };
@@ -62,12 +63,6 @@
 
 /* Begin PBXFileReference section */
 		36594C266295E4A2508067C3 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
-		3714AA571E07B317005A127B /* UIView+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLExtension.h"; sourceTree = SOURCE_ROOT; };
-		3714AA581E07B317005A127B /* UIView+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLExtension.m"; sourceTree = SOURCE_ROOT; };
-		3714AA591E07B317005A127B /* XLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowser.h; sourceTree = SOURCE_ROOT; };
-		3714AA5A1E07B317005A127B /* XLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoBrowser.m; sourceTree = SOURCE_ROOT; };
-		3714AA5B1E07B317005A127B /* XLZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZoomingScrollView.h; sourceTree = SOURCE_ROOT; };
-		3714AA5C1E07B317005A127B /* XLZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZoomingScrollView.m; sourceTree = SOURCE_ROOT; };
 		3714AA601E07B5C9005A127B /* testRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testRootViewController.h; sourceTree = "<group>"; };
 		3714AA611E07B5C9005A127B /* testRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testRootViewController.m; sourceTree = "<group>"; };
 		3714AA621E07B5C9005A127B /* testRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testRootViewController.xib; sourceTree = "<group>"; };
@@ -96,24 +91,31 @@
 		373C197A1D101FF2000D7D47 /* testCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCollectionViewCell.h; sourceTree = "<group>"; };
 		373C197B1D101FF2000D7D47 /* testCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCollectionViewCell.m; sourceTree = "<group>"; };
 		373C197C1D101FF2000D7D47 /* testCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testCollectionViewCell.xib; sourceTree = "<group>"; };
+		374111491E49AC3900940D79 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		3741114A1E49AC3900940D79 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		3741114B1E49AC3900940D79 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3741114C1E49AC3900940D79 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3741114D1E49AC3900940D79 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3741114E1E49AC3900940D79 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3741114F1E49AC3900940D79 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		374111501E49AC3900940D79 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		374111521E49AC3900940D79 /* testModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testModel.xcdatamodel; sourceTree = "<group>"; };
+		374111581E49AC5900940D79 /* TKGTWPlanMasterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKGTWPlanMasterHeaderView.h; path = searchClass/TKGTWPlanMasterHeaderView.h; sourceTree = SOURCE_ROOT; };
+		374111591E49AC5900940D79 /* TKGTWPlanMasterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKGTWPlanMasterHeaderView.m; path = searchClass/TKGTWPlanMasterHeaderView.m; sourceTree = SOURCE_ROOT; };
+		3741115A1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TKGTWPlanMasterHeaderView.xib; path = searchClass/TKGTWPlanMasterHeaderView.xib; sourceTree = SOURCE_ROOT; };
+		3741115B1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKGTWPlanMasterListTableViewCell.h; path = searchClass/TKGTWPlanMasterListTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		3741115C1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TKGTWPlanMasterListTableViewCell.m; path = searchClass/TKGTWPlanMasterListTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		3741115D1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TKGTWPlanMasterListTableViewCell.xib; path = searchClass/TKGTWPlanMasterListTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		374111621E49AC6C00940D79 /* UIView+XLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XLExtension.h"; path = "browserClass/UIView+XLExtension.h"; sourceTree = SOURCE_ROOT; };
+		374111631E49AC6C00940D79 /* UIView+XLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XLExtension.m"; path = "browserClass/UIView+XLExtension.m"; sourceTree = SOURCE_ROOT; };
+		374111641E49AC6C00940D79 /* XLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLPhotoBrowser.h; path = browserClass/XLPhotoBrowser.h; sourceTree = SOURCE_ROOT; };
+		374111651E49AC6C00940D79 /* XLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLPhotoBrowser.m; path = browserClass/XLPhotoBrowser.m; sourceTree = SOURCE_ROOT; };
+		374111661E49AC6C00940D79 /* XLZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLZoomingScrollView.h; path = browserClass/XLZoomingScrollView.h; sourceTree = SOURCE_ROOT; };
+		374111671E49AC6C00940D79 /* XLZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLZoomingScrollView.m; path = browserClass/XLZoomingScrollView.m; sourceTree = SOURCE_ROOT; };
 		374685A01CE579B00050AE9B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		374685A31CE57CB90050AE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375ADE881D59A9DB00205D2F /* testModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testModel.xcdatamodel; sourceTree = "<group>"; };
 		375ADE8A1D59AB1F00205D2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		375ADE8C1D59ABB000205D2F /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
-		375ADE8D1D59ABB000205D2F /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
-		375ADE8E1D59ABB000205D2F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		375ADE8F1D59ABB000205D2F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		375ADE901D59ABB000205D2F /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
-		375ADE911D59ABB000205D2F /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
-		375ADE921D59ABB000205D2F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		375ADE931D59ABB000205D2F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		37EDBFCA1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGTWPlanMasterHeaderView.h; sourceTree = SOURCE_ROOT; };
-		37EDBFCB1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGTWPlanMasterHeaderView.m; sourceTree = SOURCE_ROOT; };
-		37EDBFCC1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKGTWPlanMasterHeaderView.xib; sourceTree = SOURCE_ROOT; };
-		37EDBFCF1DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGTWPlanMasterListTableViewCell.h; sourceTree = SOURCE_ROOT; };
-		37EDBFD01DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGTWPlanMasterListTableViewCell.m; sourceTree = SOURCE_ROOT; };
-		37EDBFD11DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKGTWPlanMasterListTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		3ABBB86DE85DDDDDE0A8ADF7 /* Pods-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77AD9DCBDD5D3BA75D81EA76 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		80A6F7A1E41DABD7E7BB0119 /* libPods-testUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,31 +156,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3714AA531E07B1AB005A127B /* coredata */ = {
-			isa = PBXGroup;
-			children = (
-				375ADE8C1D59ABB000205D2F /* Person+CoreDataProperties.h */,
-				375ADE8D1D59ABB000205D2F /* Person+CoreDataProperties.m */,
-				375ADE8E1D59ABB000205D2F /* Person.h */,
-				375ADE8F1D59ABB000205D2F /* Person.m */,
-				375ADE901D59ABB000205D2F /* Card+CoreDataProperties.h */,
-				375ADE911D59ABB000205D2F /* Card+CoreDataProperties.m */,
-				375ADE921D59ABB000205D2F /* Card.h */,
-				375ADE931D59ABB000205D2F /* Card.m */,
-			);
-			name = coredata;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		3714AA541E07B1D9005A127B /* searchVC */ = {
 			isa = PBXGroup;
 			children = (
-				37EDBFCF1DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.h */,
-				37EDBFD01DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.m */,
-				37EDBFD11DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.xib */,
-				37EDBFCA1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.h */,
-				37EDBFCB1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.m */,
-				37EDBFCC1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.xib */,
+				374111581E49AC5900940D79 /* TKGTWPlanMasterHeaderView.h */,
+				374111591E49AC5900940D79 /* TKGTWPlanMasterHeaderView.m */,
+				3741115A1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.xib */,
+				3741115B1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.h */,
+				3741115C1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.m */,
+				3741115D1E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.xib */,
 				373640871C7C378200EA223D /* ShowViewController.h */,
 				373640881C7C378200EA223D /* ShowViewController.m */,
 				373640891C7C378200EA223D /* ShowViewController.xib */,
@@ -192,12 +178,12 @@
 		3714AA561E07B280005A127B /* browserVC */ = {
 			isa = PBXGroup;
 			children = (
-				3714AA571E07B317005A127B /* UIView+XLExtension.h */,
-				3714AA581E07B317005A127B /* UIView+XLExtension.m */,
-				3714AA591E07B317005A127B /* XLPhotoBrowser.h */,
-				3714AA5A1E07B317005A127B /* XLPhotoBrowser.m */,
-				3714AA5B1E07B317005A127B /* XLZoomingScrollView.h */,
-				3714AA5C1E07B317005A127B /* XLZoomingScrollView.m */,
+				374111621E49AC6C00940D79 /* UIView+XLExtension.h */,
+				374111631E49AC6C00940D79 /* UIView+XLExtension.m */,
+				374111641E49AC6C00940D79 /* XLPhotoBrowser.h */,
+				374111651E49AC6C00940D79 /* XLPhotoBrowser.m */,
+				374111661E49AC6C00940D79 /* XLZoomingScrollView.h */,
+				374111671E49AC6C00940D79 /* XLZoomingScrollView.m */,
 				3714AA651E07B915005A127B /* BrowserViewController.h */,
 				3714AA661E07B915005A127B /* BrowserViewController.m */,
 				3714AA671E07B915005A127B /* BrowserViewController.xib */,
@@ -235,7 +221,7 @@
 		373640531C7C371D00EA223D /* test */ = {
 			isa = PBXGroup;
 			children = (
-				3714AA531E07B1AB005A127B /* coredata */,
+				374111481E49ABC500940D79 /* coreData */,
 				3714AA541E07B1D9005A127B /* searchVC */,
 				3714AA561E07B280005A127B /* browserVC */,
 				373640571C7C371D00EA223D /* AppDelegate.h */,
@@ -277,6 +263,22 @@
 				3736407B1C7C371D00EA223D /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		374111481E49ABC500940D79 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				374111491E49AC3900940D79 /* Card.h */,
+				3741114A1E49AC3900940D79 /* Card.m */,
+				3741114B1E49AC3900940D79 /* Card+CoreDataProperties.h */,
+				3741114C1E49AC3900940D79 /* Card+CoreDataProperties.m */,
+				3741114D1E49AC3900940D79 /* Person.h */,
+				3741114E1E49AC3900940D79 /* Person.m */,
+				3741114F1E49AC3900940D79 /* Person+CoreDataProperties.h */,
+				374111501E49AC3900940D79 /* Person+CoreDataProperties.m */,
+				374111511E49AC3900940D79 /* testModel.xcdatamodeld */,
+			);
+			name = coreData;
 			sourceTree = "<group>";
 		};
 		374CD8D71D1A5E9700E7571B /* resource */ = {
@@ -424,12 +426,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				373640641C7C371D00EA223D /* LaunchScreen.storyboard in Resources */,
-				37EDBFD31DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.xib in Resources */,
 				373640611C7C371D00EA223D /* Assets.xcassets in Resources */,
-				37EDBFCE1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.xib in Resources */,
 				3714AA641E07B5C9005A127B /* testRootViewController.xib in Resources */,
 				3714AA691E07B915005A127B /* BrowserViewController.xib in Resources */,
 				3714AA6E1E07BAAB005A127B /* BrowserTableViewCell.xib in Resources */,
+				3741115F1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.xib in Resources */,
+				374111611E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.xib in Resources */,
 				3736408B1C7C378200EA223D /* ShowViewController.xib in Resources */,
 				374685A41CE57CB90050AE9B /* Main.storyboard in Resources */,
 				373C197E1D101FF2000D7D47 /* testCollectionViewCell.xib in Resources */,
@@ -580,23 +582,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37EDBFCD1DFAAE8000D6C24C /* TKGTWPlanMasterHeaderView.m in Sources */,
 				373640591C7C371D00EA223D /* AppDelegate.m in Sources */,
-				375ADE951D59ABB000205D2F /* Person.m in Sources */,
 				373C197D1D101FF2000D7D47 /* testCollectionViewCell.m in Sources */,
-				3714AA5D1E07B317005A127B /* UIView+XLExtension.m in Sources */,
+				3741115E1E49AC5900940D79 /* TKGTWPlanMasterHeaderView.m in Sources */,
+				374111551E49AC3900940D79 /* Person.m in Sources */,
+				374111681E49AC6C00940D79 /* UIView+XLExtension.m in Sources */,
 				3714AA681E07B915005A127B /* BrowserViewController.m in Sources */,
-				3714AA5F1E07B317005A127B /* XLZoomingScrollView.m in Sources */,
+				374111561E49AC3900940D79 /* Person+CoreDataProperties.m in Sources */,
+				3741116A1E49AC6C00940D79 /* XLZoomingScrollView.m in Sources */,
 				375ADE891D59A9DB00205D2F /* testModel.xcdatamodeld in Sources */,
-				375ADE971D59ABB000205D2F /* Card.m in Sources */,
+				374111571E49AC3900940D79 /* testModel.xcdatamodeld in Sources */,
 				373640561C7C371D00EA223D /* main.m in Sources */,
-				37EDBFD21DFAB01C00D6C24C /* TKGTWPlanMasterListTableViewCell.m in Sources */,
+				374111541E49AC3900940D79 /* Card+CoreDataProperties.m in Sources */,
+				374111531E49AC3900940D79 /* Card.m in Sources */,
 				3714AA631E07B5C9005A127B /* testRootViewController.m in Sources */,
-				375ADE941D59ABB000205D2F /* Person+CoreDataProperties.m in Sources */,
-				3714AA5E1E07B317005A127B /* XLPhotoBrowser.m in Sources */,
-				375ADE961D59ABB000205D2F /* Card+CoreDataProperties.m in Sources */,
 				3714AA6D1E07BAAB005A127B /* BrowserTableViewCell.m in Sources */,
 				3736408A1C7C378200EA223D /* ShowViewController.m in Sources */,
+				374111601E49AC5900940D79 /* TKGTWPlanMasterListTableViewCell.m in Sources */,
+				374111691E49AC6C00940D79 /* XLPhotoBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,6 +866,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		374111511E49AC3900940D79 /* testModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				374111521E49AC3900940D79 /* testModel.xcdatamodel */,
+			);
+			currentVersion = 374111521E49AC3900940D79 /* testModel.xcdatamodel */;
+			path = testModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		375ADE871D59A9DB00205D2F /* testModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
